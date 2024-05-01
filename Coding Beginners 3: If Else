@@ -1,0 +1,43 @@
+Q1:
+print("You are exploring a rainforest in search of treasure.")
+print("Legend has it that there are some buried on a nearby island.")
+
+Q2:
+first_choice = input("You come across a lake. Do you want to swim across, or wait for a boat? (swim/wait): ")
+if first_choice.lower() == "swim":
+    print("You get eaten by a hungry shark. Game over.")
+    exit() 
+elif first_choice.lower() == "wait":
+    print("A boat arrives and you arrive at the island safely.")
+else:
+    print("Invalid choice. Game over.")
+    exit() 
+
+Q3:
+second_choice = input("You come to a cave. Do you want to venture inside or walk on? (venture/walk): ")
+
+
+if second_choice.lower() == "venture":
+    print("You are squished by boulders never to be seen again. Game over.")
+    exit()  
+elif second_choice.lower() == "walk":
+
+    pass  
+else:
+    print("Invalid choice. Game over.")
+    exit() 
+
+Q4:
+third_choice = input("You're at a crossroads. Do you go left, right, or straight? (left/right/straight): ")
+if third_choice.lower() == "left":
+    print("You are trampled by a herd of wildebeest. Game over.")
+    exit()  
+elif third_choice.lower() == "straight":
+    print("You get stung by a poisonous wasp. Game over.")
+    exit() 
+elif third_choice.lower() == "right":
+    print("You march on and find the buried treasure! Yippee!!")
+    exit() 
+else:
+    print("Invalid choice. Game over.")
+    exit() 
